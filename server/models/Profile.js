@@ -11,7 +11,7 @@ const profileSchema = new mongoose.Schema({
   phone: String,
   gender: String,
   dob: Date,
-  avatar: String, // Image URL
+  avatar: String, 
   location: String,
   createdAt: {
     type: Date,
